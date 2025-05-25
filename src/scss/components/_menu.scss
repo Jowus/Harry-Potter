@@ -1,0 +1,25 @@
+.menu {
+  display: flex; 
+  background-color: $color4;
+  justify-content: center; 
+  color: $color3;
+  text-decoration: none;
+  padding: 10px 0; 
+}
+
+nav ul {
+  list-style: none;  
+  padding: 0; 
+  margin: 0; 
+  display: flex;  
+}
+
+nav li {
+  margin: 0 80px;
+  height: 40px;
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-family: $font-family-2;
+}
+
