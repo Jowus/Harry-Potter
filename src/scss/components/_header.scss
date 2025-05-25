@@ -1,0 +1,12 @@
+.header {
+    background-color: $color1;
+    width: auto;
+    height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: $color2;
+    font-size: $font-size-1;
+    flex-wrap: wrap;
+    font-family: $font-family-1;
+}

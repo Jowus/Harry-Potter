@@ -1,0 +1,13 @@
+@import "./reset";
+@import "./star";
+@import "./variables";
+@import "./mixins";
+@import "./body";
+// ----------------------------------
+@import "./components/header";
+
+@import "./components/footer";
+@import "./components/movies";
+@import "./components/characters";
+@import "./components/menu";
+@import "./components/_quiz";

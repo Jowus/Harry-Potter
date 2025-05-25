@@ -1,0 +1,12 @@
+.footer {
+    background-color: $color1;
+    width: auto;
+    height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    color: $color2;
+    font-size: 100px;
+    flex-wrap: wrap;
+    font-family: Snell Roundhand, cursive;
+}
