@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('/HP/tlo.png'); // ✅ zawsze zadziała na GitHub Pages
-
+  background-image: url('/Harry-Potter/tlo.png'); /* ✅ działa na GitHub Pages */
+  background-size: cover;
+  background-repeat: no-repeat;
 }
