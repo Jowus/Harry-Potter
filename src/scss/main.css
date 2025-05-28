@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 @charset "UTF-8";
->>>>>>> a254909 (Add Home page)
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 *,
 *::before,
@@ -80,13 +77,9 @@ a {
 body {
   margin: 0;
   padding: 0;
-<<<<<<< HEAD
-  background-image: url("tlo.png");
-=======
   background-image: url("/Harry-Potter/tlo.png"); /* ✅ działa na GitHub Pages */
   background-size: cover;
   background-repeat: no-repeat;
->>>>>>> a254909 (Add Home page)
 }
 
 .header {
