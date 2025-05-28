@@ -10,7 +10,6 @@ import Quiz2 from "./components/Quiz2";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
-
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Header />
@@ -46,4 +45,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Footer />
   </React.StrictMode>
 );
-
