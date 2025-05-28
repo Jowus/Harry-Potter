@@ -1,27 +1,22 @@
 .home {
-    height: 100vh;
-    background-image: url('/background.png'); // upewnij się, że obrazek istnieje w `public/`
-    background-size: cover;
-    background-position: center;
+    height: 75vh;
     display: flex;
-    align-items: center;
+    margin-top: 10em;
     justify-content: center;
   
     &--x {
-      background-color: rgba(0, 0, 0, 0.6);
-      color: #fff;
-      padding: 2rem;
-      border-radius: 1rem;
+      color: $color3;
       text-align: center;
   
       h1 {
-        font-size: 3rem;
+        font-size: 6rem;
         margin-bottom: 1rem;
-        font-family: 'Cinzel Decorative', cursive;
+        font-family: $font-family-1;
       }
   
       p {
         font-size: 1.5rem;
+        font-family: $font-family-1;
       }
     }
   }

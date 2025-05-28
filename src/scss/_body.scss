@@ -1,7 +1,10 @@
 body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-image: url('/Harry-Potter/tlo.png'); /* ✅ działa na GitHub Pages */
+  background-image: url("/Harry-Potter/tlo.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }

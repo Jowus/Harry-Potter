@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Spells from "./components/Spells";
 import Quiz2 from "./components/Quiz2";
+import Home from "./components/Home";
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -18,7 +19,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <nav>
           <ul>
             <li>
-              <Link to="/wstep">Home</Link>
+              <Link to="/home">Home</Link>
             </li>
             <li>
               <Link to="/characters">Characters</Link>
@@ -40,6 +41,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
         <Route path="/spells" element={<Spells />} />
         <Route path="/movies" element={<Movies />} />
         <Route path="/quizes" element={<Quiz2 />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
     </BrowserRouter>
     <Footer />
